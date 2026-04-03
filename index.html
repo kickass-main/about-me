@@ -1,0 +1,197 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KICKASS - Портфолио</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body id="top">
+
+<div class="bg-effects" aria-hidden="true">
+  <div class="bg-grid"></div>
+  <div class="bg-noise"></div>
+</div>
+
+<!-- ── NAV ── -->
+<nav id="site-nav">
+  <div class="wrap">
+    <ul class="nav-links">
+      <li><a href="#about">ОБО МНЕ</a></li>
+      <li><a href="#services">УСЛУГИ</a></li>
+      <li><a href="#achievements">ДОСТИЖЕНИЯ</a></li>
+      <li><a href="#projects">ПРОЕКТЫ</a></li>
+      <li><a href="#contact">КОНТАКТ</a></li>
+    </ul>
+    <div class="nav-socials">
+      <a href="https://t.me/kickass_main" target="_blank" rel="noopener noreferrer" class="nav-social-link" title="Telegram" aria-label="Telegram">
+        <svg class="nav-social-icon" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.17 13.5l-2.956-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.862.086z"/></svg>
+      </a>
+      <a href="mailto:skovordinmatvey@bk.ru" class="nav-social-link" title="Email" aria-label="Email">
+        <svg class="nav-social-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap page">
+
+  <!-- ── HERO ── -->
+  <div class="hero-card hero-anim">
+    <h1 class="hero-combined">
+      <span class="hero-brand">KICKASS</span>
+      <span class="hero-slogan-line">
+        <span class="hero-pipe" aria-hidden="true">|</span>
+        <span class="hero-slogan">Код, который работает. <em>Системы, которые думают.</em></span>
+      </span>
+    </h1>
+
+    <!-- Бегущая строка навыков -->
+    <div class="ticker-wrap">
+      <div class="ticker">
+        <span class="ticker-item">Вёрстка</span>
+        <span class="ticker-item">Frontend</span>
+        <span class="ticker-item">Backend</span>
+        <span class="ticker-item">Python</span>
+        <span class="ticker-item">Telegram-боты</span>
+        <span class="ticker-item">ML / AI</span>
+        <span class="ticker-item">Git</span>
+        <!-- дублируем для бесшовного цикла -->
+        <span class="ticker-item">Вёрстка</span>
+        <span class="ticker-item">Frontend</span>
+        <span class="ticker-item">Backend</span>
+        <span class="ticker-item">Python</span>
+        <span class="ticker-item">Telegram-боты</span>
+        <span class="ticker-item">ML / AI</span>
+        <span class="ticker-item">Git</span>
+      </div>
+    </div>
+
+    <div class="hero-btns">
+      <a href="#projects" class="btn btn-fill">Проекты</a>
+      <a href="#contact" class="btn btn-outline">Связаться</a>
+    </div>
+  </div>
+
+  <!-- ── ABOUT ── -->
+  <div class="section-card reveal" id="about">
+    <p class="section-label">Обо мне</p>
+    <p class="about-lead">
+      <strong style="color: #e0e0e0; font-weight: 600;">Матвей</strong> - Разработка. Сайты, боты, бэкенд — в срок и по сути, без лишних слов. Работаю удалённо.
+    </p>
+    <ul class="about-points">
+      <li>Вёрстка и интерфейсы: семантика, адаптив, аккуратный UI.</li>
+      <li>Backend на Python, интеграции и деплой.</li>
+      <li>Telegram-боты: сценарии, админка, связка с вашими сервисами.</li>
+      <li>ML и скрипты: от прототипов до рабочих пайплайнов.</li>
+    </ul>
+    <div class="stack-row">
+      <p class="stack-row-label">Стек</p>
+      <div class="stack-pills">
+        <span>HTML / CSS</span>
+        <span>JavaScript</span>
+        <span>Python</span>
+        <span>Git</span>
+        <span>ML / PyTorch</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── SERVICES ── -->
+  <div class="section-card reveal reveal-delay-1" id="services">
+    <p class="section-label">Услуги</p>
+    <div class="services-grid">
+      <div class="service-card">
+        <span class="service-num">01</span>
+        <h3>Вёрстка и лендинги</h3>
+        <p>Макеты в адаптивной вёрстке, быстрая загрузка, доступность и порядок в коде.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-num">02</span>
+        <h3>Telegram-боты</h3>
+        <p>Сценарии, админка и связка с CRM и вашими сервисами.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-num">03</span>
+        <h3>Backend</h3>
+        <p>Сервисы на Python, базы, авторизация, документация и выкладка.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-num">04</span>
+        <h3>ML и автоматизация</h3>
+        <p>Модели, батчи, скрипты под данные и интеграция в продукт.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── ACHIEVEMENTS (данные в portfolio-data.json) ── -->
+  <div class="section-card reveal reveal-delay-2" id="achievements">
+    <p class="section-label">Достижения</p>
+    <ul class="achievements-list" id="achievements-list"></ul>
+  </div>
+
+  <!-- ── PROJECTS (данные в portfolio-data.json) ── -->
+  <div class="section-card reveal reveal-delay-3" id="projects">
+    <p class="section-label">Проекты</p>
+    <div class="projects" id="projects-grid"></div>
+  </div>
+
+  <!-- ── CONTACT ── -->
+  <div class="section-card reveal reveal-delay-4" id="contact">
+    <p class="section-label">Контакт</p>
+    <div class="contact-list">
+      <a href="https://t.me/kickass_main" target="_blank" rel="noopener noreferrer" class="contact-item">
+        <svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.17 13.5l-2.956-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.862.086z"/></svg>
+        @kickass_main
+      </a>
+      <a href="mailto:skovordinmatvey@bk.ru" class="contact-item">
+        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        skovordinmatvey@bk.ru
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<noscript>
+  <style>.reveal { opacity: 1 !important; transform: none !important; }</style>
+  <p class="wrap" style="padding:1rem 1.5rem 2rem;color:#777;font-size:0.9rem;text-align:center">Включите JavaScript, чтобы загрузились проекты и достижения из данных.</p>
+</noscript>
+
+<!-- Дублирует portfolio-data.json: нужен при открытии index.html с диска (file://). На хостинге подхватывается portfolio-data.json -->
+<script type="application/json" id="portfolio-data-embedded">
+{
+  "__readme": "Проекты: у каждого проекта title, description, link, tags — теги одной строкой через запятую. Достижения: text (можно HTML вроде <strong>), season — подпись сезона.",
+  "projects": [
+    {
+      "title": "CodeShare",
+      "description": "Платформа для создания и продвижения совместных проектов.",
+      "link": "https://kick-ass-code-sharing.hf.space/",
+      "tags": "Вёрстка и лендинги, Frontend, Backend, Python, JavaScript, HTML / CSS, Git"
+    },
+    {
+      "title": "KICKASS — портфолио",
+      "description": "Сайт-портфолио с проектами, списком услуг и информацией о разработчике.",
+      "link": "index.html",
+      "tags": "Вёрстка и лендинги, Frontend, HTML / CSS, JavaScript, Git"
+    }
+  ],
+  "achievements": [
+    {
+      "text": "Финалист <strong>Национальной технологической олимпиады</strong> по профилю «Программная инженерия в финансовых технологиях».",
+      "season": "Сезоны 2024/25 и 2025/26"
+    },
+    {
+      "text": "Финалист <strong>Национальной технологической олимпиады</strong> по профилю «Искусственный интеллект».",
+      "season": "Сезон 2025/26"
+    }
+  ]
+}
+</script>
+
+  <script src="script.js" defer></script>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "__readme": "Проекты: у каждого проекта title, description, link, tags — теги одной строкой через запятую. Достижения: text (можно HTML вроде <strong>), season — подпись сезона.",
+  "projects": [
+    {
+      "title": "CodeShare",
+      "description": "Платформа для создания и продвижения совместных проектов.",
+      "link": "https://kick-ass-code-sharing.hf.space/",
+      "tags": "Вёрстка и лендинги, Frontend, Backend, Python, JavaScript, HTML / CSS, Git"
+    },
+    {
+      "title": "KICKASS — портфолио",
+      "description": "Сайт-портфолио с проектами, списком услуг и информацией о разработчике.",
+      "link": "index.html",
+      "tags": "Вёрстка и лендинги, Frontend, HTML / CSS, JavaScript, Git"
+    }
+  ],
+  "achievements": [
+    {
+      "text": "Финалист <strong>Национальной технологической олимпиады</strong> по профилю «Программная инженерия в финансовых технологиях».",
+      "season": "Сезоны 2024/25 и 2025/26"
+    },
+    {
+      "text": "Финалист <strong>Национальной технологической олимпиады</strong> по профилю «Искусственный интеллект».",
+      "season": "Сезон 2025/26"
+    }
+  ]
+}
